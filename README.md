@@ -1,4 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Web Audio API with React
+
+This project was made to learn how to use Web Audio API with React.
+
+## preparation
+
+### install dependencies
+
+```bash
+$ npm install
+
+or
+
+$ yarn
+```
+
+### Music file
+
+Place the mp3 file you want to play inside the `src/assets/` folder.
+
+And change the `filename` variable in the 6th line of `src/App.tsx` to the name of the file you moved.
+
+### run
+
+```bash
+npm run start
+
+or 
+
+yarn start
+```
+
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
