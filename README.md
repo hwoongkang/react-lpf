@@ -23,11 +23,11 @@ And change the `filename` variable in the 6th line of `src/App.tsx` to the name 
 ### run
 
 ```bash
-npm run start
+$ npm run start
 
 or 
 
-yarn start
+$ yarn start
 ```
 
 # This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

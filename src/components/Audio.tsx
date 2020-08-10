@@ -73,7 +73,7 @@ const Audio: React.FC<IPropTypes> = ({ src, filename }) => {
       <audio src={src} ref={audioRef} />
       <p>Now playing: {filename}</p>
       <br />
-      <button onClick={handleClick}>{playing ? "pause" : "playing"}</button>
+      <button onClick={handleClick}>{playing ? "pause" : "play"}</button>
       <p>Frequency: {(20 * Math.pow(10, freq)).toFixed(0)}Hz</p>
       <input
         type="range"
